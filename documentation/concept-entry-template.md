@@ -1,48 +1,40 @@
 ---
-Title: 'The Title' # Required; the file name should be the same as the title, but lowercase, with dashes instead of spaces, and all punctuation removed
-Description: 'A brief description.' # Required; ideally under 150 characters and starts with a noun (used in search engine results and content previews)
-Subjects: # Please only use Subjects in the subjects.md file (https://github.com/Codecademy/docs/blob/main/documentation/subjects.md). If that list feels insufficient, feel free to create a new Subject and add it to subjects.md in your PR!
-  - 'A subject name'
-  - 'A second subject name'
-  - 'An nth subject name'
-Tags: # Please only use Tags in the tags.md file (https://github.com/Codecademy/docs/blob/main/documentation/tags.md). If that list feels insufficient, feel free to create a new Tag and add it to tags.md in your PR!
-  - 'A tag'
-  - 'A second tag'
-  - 'An nth tag'
-CatalogContent: # Please use course/path landing page slugs, rather than linking to individual content items. If listing multiple items, please put the most relevant one first
-  - 'learn-example-course'
-  - 'paths/example-path'
----
+Title: 'Sklearn ensembles' 
 
-[Introduction - make sure first mention of concept is in **bold**.] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
+Description: 'Sklearn or scikit-learn is an ensemble, which is an method to combine multiple machine learning models to make advanced models which are far more superior than individual models.They can correct erros and allow your item to have better, imporved, overall performance.' 
 
-## Subsection 1
+Subjects: 
 
-[Text about subsection 1]
+  - 'Bash/Shell'
+  - 'Data Science'
+  - 'Web development'
 
-## Subsection 2
+Tags: 
 
-[Text about subsection 2]
+  - 'Algorithms'
+  - 'Azure'
+  - 'ASP.net'
 
-## Subsection n
+CatalogContent: 
 
-[Text about subsection n]
+  - 'config_context'
+  - 'show_versions'
+  - 'baseEstimator'
+  - 'ClustorMixin'
+  - 'OPTICS'
+  - 'GraphicalLasso'
 
-## Codebyte Example (if applicable)
 
-We can currently support:
+**Clustering**
 
-- Python
-- JavaScript
-- Ruby
-- C++
-- C#
-- Go
-- PHP
+    'Clustering in Sklearn is using different techniques to group data that is identical depending on their features. Clustering only happens when you use different algorithims each with their own pros and cons. There are many algorithims for example there are [Kmeans] and there also are [Hierachical clustering].There are so many more algorithims. This is just the tip of the iceberg.'
 
-See [content-standards.md](https://github.com/Codecademy/docs/blob/main/documentation/content-standards.md) for more details!
 
-```codebyte/js
-# Example runnable code block.
-console.log('Hello, World!');
-```
+
+**Regression**
+
+    'Unlike the first concept, Regression is a set of suprevised learning techniques used to manipulate and figure out continous values based and featues the user inputs. Regression helps with and is suitable for different types of problems and data.'
+
+**Cross-Validation**
+
+    'Cross-validation in Sklearn is one of the many techniques to evaluate the performance and generalizability of a machine learning model. It sends the data in different sets and keeps on training the model. For example you can use KFold as a method and also use LeavePOut. There are many more but that was an brief summary'
